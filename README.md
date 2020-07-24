@@ -15,7 +15,7 @@ And then, mix analog input(1-2) with the sound, and output from OUTPUT 1L/2R(1-2
 Turn MIX on QUAD-CAPTURE panel into PLAYBACK only.  
 
 music(Digital)---> COAXIAL IN(3-4) ---> Filter --|   
-                                                 |   
+.                                                |   
 MIC(Analog)   ---> INPUT 1L/2R(1-2) ----------> Mix --->  OUTPUT 1L/2R(1-2)  
 
 
