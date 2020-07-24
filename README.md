@@ -14,10 +14,11 @@ Via python scipy filter LPF/HPF, the music source mid sound is removed, and low 
 And then, mix analog input(1-2) with the sound, and output from OUTPUT 1L/2R(1-2).   
 Turn MIX on QUAD-CAPTURE panel into PLAYBACK only.  
 
+<pre>
 music(Digital)---> COAXIAL IN(3-4) ---> Filter --|   
-.                                                |   
+                                                 |  
 MIC(Analog)   ---> INPUT 1L/2R(1-2) ----------> Mix --->  OUTPUT 1L/2R(1-2)  
-
+</pre>
 
 ### rec_play1.py  
 This is the program of the signal flow above.  
