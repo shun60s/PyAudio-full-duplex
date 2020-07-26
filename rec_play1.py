@@ -40,6 +40,7 @@ THE SOFTWARE.
 """
 
 import sys
+import time
 import numpy as np
 import pyaudio as pa
 from scipy import signal # version > 1.2.0
@@ -171,6 +172,23 @@ if __name__ == "__main__":
         if c:
             break
         time.sleep(0.1)
+    
+    """
+    This input loop is not loop.
+    c = input() is waitting for return key.
+    And time.sleep(0.1) does not called.
+    Following is another sample code for Windows.
+    
+    import msvcrt  # for windows only
+    
+    # input loop
+    while inout_stream1.is_active():
+        if msvcrt.kbhit():   # if keyboard hit
+            c=msvcrt.getch()
+            break
+        time.sleep(0.1)
+    
+    """
     
     # stream stop and close
     inout_stream1.stop_stream()
