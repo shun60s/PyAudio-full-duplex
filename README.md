@@ -31,6 +31,13 @@ For example,
 ![figure1](doc/QUAD-CAPTURE-index20.png)  
 
 
+### rec_play1_with_peak_level_monitor.py  
+peak level monitor using pyqtgraph and pyQt5, every one second display changes.  
+
+![figure2](doc/peak_level_monitor.png)  
+
+
+
 ## License  
 
 MIT  
